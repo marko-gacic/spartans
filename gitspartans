@@ -1,0 +1,20 @@
+1. Klonirati bilo koji repozitorujum sa GitHub
+   git clone https://github.com/marko-gacic/spartans
+
+2. Preci u kreirani direktorijum
+   cd c/desktop/spartans
+
+3. Kreirati granu **test** i preci na nju
+   git checkout -b test
+
+4. Kreirati fajl i ubaciti u njega bilo kakav sadrzaj
+   touch spartans
+   echo spartans
+
+5. Dodati kreirani fajl na staging
+   git add spartans
+
+6. Logovati output "git status" komande u konzolu
+   git status
+
+P.S. Za git control koristim aplikaciju koja omogucava laksi rad sa gitom aka SmartGit
